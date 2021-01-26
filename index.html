@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="jquery-1.11.2.js"></script>
+        <script type="text/javascript" src="ficjs.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css" />
+        <title>La Machine à café St Paul</title>
+    </head>
+    <body>
+        <form id='idValider' method='post' action='code php.php'>
+            <h1>La Machine à Café St Paul</h1>
+            <h3>Remplissez le formulaire et cliquez sur Commander :</h3>
+            <fieldset>
+            <legend>Choisissez votre café</legend>
+
+            <SELECT name="nomcafe" size="1">
+                <OPTION>Mélange maison : 3.25€</OPTION>
+                <OPTION>Bolivie : 3.75€</OPTION>
+                <OPTION>Guatemala : 3.62€</OPTION>
+                <OPTION>Kenya : 4.21€</OPTION>
+            </SELECT>
+            </fieldset>
+            <br />
+            <fieldset>
+                    <table>
+                            <tr>
+                                    <legend>Type</legend>
+                                    <td><input type="radio" name="type" value="grain" id="sexeh" onMouseOut="checkCafe();"> Café en grains</td>
+                                    <td><input type="radio" name="type" value="moulu" id="sexef" onMouseOut="checkCafe();"> Café moulu</td>
+                                    <td><div id="idsexe" style="display:none;">Veuillez choisir un type de café</div></td>
+                            <tr>
+                    </table>
+                </fieldset>
+            <br />
+            <fieldset>
+                <legend>Options</legend><br />
+            <input type="checkbox" name="cadeau" > Paquet cadeau<br />
+            <input type="checkbox" name="catalogue"> Joindre un catalogue<br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Coordonnées client</legend>
+
+                    <TABLE>
+                            <tr>
+                                            <td>Nom : </td>
+                                            <td><input name="nom" id="nom" onblur="checkNom();"></td>
+                                            <td><div id="idnom" style="display:none;" >Votre nom n'est pas correct (2 caractères minimum)</div></td>
+                            </tr>
+
+                            <tr>
+                                            <td>Adresse : </td>
+                                            <td><input name="adresse" id="adresse" onblur="checkAdresse();"></td>
+                                            <td><div id="idadresse" style="display:none;" >Votre adresse n'est pas correcte</div> </td>
+                            </tr>
+
+                            <tr>
+                                            <td>Ville : </td>
+                                            <td><input name="ville" id="ville" onblur="checkVille();"></td>
+                                            <td><div id="idville" style="display:none;" >Votre ville n'est pas correcte </div></td>
+                            </tr>
+
+                            <tr>
+                                            <td>Code postal : </td>
+                                            <td><input name="codepostal" id="cp" onblur="checkCP();"></td>
+                                            <td><div id="idcp" style="display:none;" >Votre code postale n'est pas correct (il doit contenir 5 chiffres) </div></td>
+                            </tr>
+
+                            <tr>
+                                            <td>Vos commentaires : </td>
+                                            <td><TEXTAREA rows="3" name="commentaires"></textarea> </td>
+                            </tr>
+                    </TABLE>
+            </fieldset>
+            <br />
+
+            <input type="button" value="Commander"   onclick="Valider();">
+            <INPUT type="reset" value="Annuler" onclick="Annuler();">
+        </form>
+    </body>
+</html>
