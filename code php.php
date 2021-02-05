@@ -65,3 +65,4 @@ if(!empty($catalogue)){$affiche.="<br /><br />Catalogue joint à la commande";}
 echo $affiche;
 
 ?>
+<!Belouar 05/02/21 Intéressant>
