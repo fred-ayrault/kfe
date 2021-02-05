@@ -1,4 +1,8 @@
-			var boolCafe=false;
+//  Guerain Corentin
+//  05/02/2021
+//  Projet permettant d'apprendre à utiliser Git
+
+                        var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;
