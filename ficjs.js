@@ -1,4 +1,8 @@
-			var boolCafe=false;
+//   Mathis MORAIS 
+//   5 février 2021
+//   Très bon projet
+
+                        var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;
