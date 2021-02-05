@@ -1,3 +1,7 @@
+<!--
+ Thomas FOURAGE 05/02/2021
+ code php du site café
+-->
 <link rel="stylesheet" type="text/css" href="css.css"/>
 <?php
 $cafe=$_POST["nomcafe"];

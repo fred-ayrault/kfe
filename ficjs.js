@@ -1,4 +1,6 @@
-			var boolCafe=false;
+/* Thomas FOURAGE 05/02/2021
+code java scripte du site café*/
+                        var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;
