@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="css.css"/>
+// GOIN le 05/02 - Projet machine a café st paul
+<!-- comment --><link rel="stylesheet" type="text/css" href="css.css"/>
 <?php
 $cafe=$_POST["nomcafe"];
 if(!empty($_POST["type"])){$type=$_POST["type"];}

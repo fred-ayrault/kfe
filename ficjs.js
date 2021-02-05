@@ -1,4 +1,6 @@
-			var boolCafe=false;
+// GOIN le 05/02 - Projet machine a café st paul
+
+var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;
