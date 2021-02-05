@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="css.css"/>
 <?php
+#Mathis Donnez 05/02/2021 récupération des données du formulaire commande café
 $cafe=$_POST["nomcafe"];
 if(!empty($_POST["type"])){$type=$_POST["type"];}
 if(!empty($_POST["cadeau"])){$cadeau=$_POST["cadeau"];}

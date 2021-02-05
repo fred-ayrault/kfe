@@ -1,4 +1,5 @@
-			var boolCafe=false;
+//Mathis Donnez 05/02/2021 vérification des données reçues
+                        var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;
