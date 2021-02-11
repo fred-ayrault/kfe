@@ -1,4 +1,8 @@
-			var boolCafe=false;
+// LABBE
+// 11 février
+// voici le script JavaScipt du projet pour les cafés
+
+                        var boolCafe=false;
                         var boolNom=false;
                         var boolAdresse=false;
                         var boolVille=false;

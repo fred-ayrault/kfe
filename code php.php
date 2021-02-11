@@ -1,3 +1,8 @@
+<!-- LABBE
+     11 février
+     voici la page php du projet café pour s'occuper du derrière du site
+-->
+
 <link rel="stylesheet" type="text/css" href="css.css"/>
 <?php
 $cafe=$_POST["nomcafe"];
