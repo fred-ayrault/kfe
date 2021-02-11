@@ -3,7 +3,7 @@
                         var boolAdresse=false;
                         var boolVille=false;
                         var boolCP=false;
-                        
+                        //Tarek bernoussi 05/02/2021 commentaire sur git : c'est super utile.
                         function checkCafe()
 			{
 				var H = document.getElementById('sexeh');

@@ -9,7 +9,7 @@ if(!empty($_POST["adresse"])){$adresse=$_POST["adresse"];}
 if(!empty($_POST["ville"])){$ville=$_POST["ville"];}
 if(!empty($_POST["codepostal"])){$cp=$_POST["codepostal"];}
 if(!empty($_POST["commentaires"])){$com=$_POST["commentaires"];}
-
+//Tarek bernoussi 05/02/2021 commentaire sur git : c'est super utile.
 $jour = array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
 
 $mois = array("","Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre");
